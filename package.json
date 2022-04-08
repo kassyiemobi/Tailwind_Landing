@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "name": "tailwind_landing-1",
+  "description": "Atailwind css Landing page",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kassyiemobi/Tailwind_Landing.git"
+  },
+  "author": "kasie omeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kassyiemobi/Tailwind_Landing/issues"
+  },
+  "homepage": "https://github.com/kassyiemobi/Tailwind_Landing#readme"
+}
